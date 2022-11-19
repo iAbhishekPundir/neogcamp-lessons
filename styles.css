@@ -47,3 +47,26 @@ hr {
 .list-item-inline{
     display: inline;
 }
+
+.navigation {
+    background-color:var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: center;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
