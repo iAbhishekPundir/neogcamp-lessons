@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 :root{
     --primary-color: #059669;
+    --dark-slate:#64748b;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 hr {
     margin: 2rem 0rem;
@@ -69,4 +70,27 @@ hr {
 }
 .navigation .link-active{
     font-weight: bold;
+}
+
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--dark-slate);
+    /* max-width: 400px; */
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
 }
